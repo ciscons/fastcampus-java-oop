@@ -6,6 +6,9 @@ class MainTest {
 
     @Test
     void main() {
-        Main.main(args: null);
+        String[] args = {"3", "1", "2"};
+
+        Main.main(args);
+
     }
 }
